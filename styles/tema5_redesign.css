@@ -81,8 +81,9 @@ h3 {
     /*----------redesign_first---------*/
     #redesign_first .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
+        margin: 70px 0px;
     }
 
 
