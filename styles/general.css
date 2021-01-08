@@ -1,0 +1,191 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+section {
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+
+
+/*-------------Font og deres forhold-------------------*/
+
+h1 {
+    font-size: 2rem;
+    /*    font-family: 'Arsenal', sans-serif;*/
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h4 {
+    font-size: 0.9rem;
+    font-family: 'Assistant', sans-serif;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+}
+
+a {
+    font-family: 'Assistant', sans-serif;
+}
+
+/*-------------Burgermenu------------------------------*/
+
+.hidden {
+    opacity: 0;
+    margin: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    /*
+    display: flex;
+    justify-content: flex-start;
+*/
+    margin-left: 20px;
+    font-size: 3rem;
+}
+
+#menu {
+    list-style-type: none;
+    background-color: rgba(195, 195, 195, 0.8);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#menu li {
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #eba31b;
+}
+
+
+.logo {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.logo a {
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.3rem;
+
+}
+
+
+
+/*-------------footer---------------------------*/
+footer {
+    height: auto;
+    background-color: #2F3640;
+}
+
+footer .section_wrapper {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    color: aliceblue;
+    padding: 0px 12px;
+    text-align: center;
+
+}
+
+footer .section_wrapper .top {
+    border-bottom: 1px solid rgba(195, 195, 195, 0.8);
+
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    /*------------brugermanu og nav------------*/
+    nav {
+        display: block;
+    }
+
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        /*        transform: translateX(0);*/
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+
+    }
+
+    #menu {
+        text-align: center;
+        background-color: rgba(195, 195, 195, 0);
+        margin-top: 0;
+    }
+
+
+
+
+    /*------------footer----------------------*/
+    footer .section_wrapper {
+        padding: 0px 123px;
+    }
+
+    footer .section_wrapper .bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .bottom h4 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

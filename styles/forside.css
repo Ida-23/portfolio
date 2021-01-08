@@ -1,0 +1,181 @@
+body {
+    background: url(../baggrund.png) no-repeat fixed top;
+}
+
+
+
+#splach {
+    max-width: none;
+    width: 100%;
+    height: 80vh;
+    background-image: url(../splch_eksamen.png);
+    background-size: cover;
+    background-position: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+
+#splach .section_wrapper {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    text-align: center;
+    grid-row-gap: 90px;
+}
+
+
+/*----------------udpluk ------------------*/
+
+#udpluk {
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+
+#udpluk .overskrift_udpluk {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*
+#udpluk .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#udpluk .col_left {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    column-gap: 90px;
+    padding-left: 90px;
+    width: 70%;
+    filter: grayscale(100%);
+
+}
+
+#udpluk .col_right {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    column-gap: 90px;
+    width: 70%;
+    padding-left: 90px;
+
+}*/
+
+.image-container {
+    display: flex;
+    gap: 5px;
+    /*    padding: 20px;*/
+}
+
+.image-container figure {
+    flex-grow: 1;
+}
+
+.image-container {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+}
+
+.image-container figure {
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    padding-right: 15px;
+}
+
+.image-container figcaption {
+    font-size: 1.2rem;
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
+}
+
+
+
+/*-------knap-------*/
+#udpluk .bottom {
+    text-align: center;
+}
+
+
+.knap {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    background-color: #2F3640;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    color: #FFFFFF;
+}
+
+
+.button a {
+    color: rgb(255, 255, 255);
+    font-size: 0.70rem;
+}
+
+
+
+/*-----------om mig, layout over cv siden -------------*/
+#om_mig {
+    background-color: #FFFFFF;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #splach {
+        height: 100vh;
+    }
+
+    #splach .section_wrapper {
+        grid-column-start: 1;
+        grid-column-end: span 1;
+        grid-row-start: 1;
+        grid-row-end: span 1;
+        text-align: center;
+    }
+
+
+    /*---------udpluk siden --------------*/
+    .image-container {
+        display: grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .image-container figure {
+        flex-grow: 0;
+    }
+
+
+    /*-----------------om mig, layout over cv siden-------------*/
+
+
+
+
+}

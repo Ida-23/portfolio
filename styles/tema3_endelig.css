@@ -1,0 +1,42 @@
+.section_wrapper {
+    padding: 0px 12px;
+}
+
+
+
+/*-------------baggrunds billede i toppen-------*/
+#endelig_splash {
+    max-width: none;
+    width: 100%;
+    height: auto;
+    background: url(../baggrund.png) no-repeat fixed top;
+    background: url(../baggrund.png) no-repeat fixed top;
+}
+
+#endelig_splash .section_wrapper {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    color: #eba31b;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    nav {
+        background-color: #ffff;
+    }
+
+    #endelig_splash {
+        height: auto;
+    }
+
+    #endelig_splash .section_wrapper {
+        padding-bottom: 150px;
+        padding-top: 300px;
+    }
+
+
+
+}
