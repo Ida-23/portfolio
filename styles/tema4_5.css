@@ -75,10 +75,6 @@ img {
 
 @media only screen and (min-width: 600px) {
 
-    nav {
-        background-color: #ffff;
-    }
-
     #tema_splash {
         height: auto;
     }

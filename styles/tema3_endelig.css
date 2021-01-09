@@ -27,10 +27,6 @@ p {
 
 @media only screen and (min-width: 600px) {
 
-    nav {
-        background-color: #ffff;
-    }
-
     #endelig_splash {
         height: auto;
     }

@@ -52,9 +52,6 @@ h3 {
 
 
 @media only screen and (min-width: 600px) {
-    nav {
-        background-color: #ffff;
-    }
 
     #om_mig_splash {
         height: auto;

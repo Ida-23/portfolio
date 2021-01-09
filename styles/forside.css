@@ -3,7 +3,6 @@ body {
 }
 
 
-
 #splach {
     max-width: none;
     width: 100%;
@@ -14,8 +13,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
-
 }
 
 #splach .section_wrapper {
@@ -147,6 +144,11 @@ body {
 
 
 @media only screen and (min-width: 600px) {
+    header {
+        height: 0;
+    }
+
+
     #splach {
         height: 100vh;
     }
@@ -154,7 +156,7 @@ body {
     #splach .section_wrapper {
         grid-column-start: 1;
         grid-column-end: span 1;
-        grid-row-start: 1;
+        grid-row-start: 2;
         grid-row-end: span 1;
         text-align: center;
     }

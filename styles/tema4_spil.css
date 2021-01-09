@@ -25,11 +25,6 @@ h2 {
 
 
 @media only screen and (min-width: 600px) {
-
-    nav {
-        background-color: #ffff;
-    }
-
     #spil_splash {
         height: auto;
     }
@@ -57,7 +52,7 @@ h2 {
     /*-----------------spil_second--------------*/
     #spil_second .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         grid-gap: 20px;
     }
 

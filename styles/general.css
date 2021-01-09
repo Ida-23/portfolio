@@ -10,6 +10,7 @@ body {
 
 header {
     height: 0;
+    z-index: 30;
 }
 
 html {
@@ -24,7 +25,6 @@ section {
 nav {
     width: 100%;
     height: auto;
-    position: fixed;
 }
 
 
@@ -55,6 +55,7 @@ h4 {
 
 p {
     font-family: 'Assistant', sans-serif;
+    line-height: 1.7;
 }
 
 a {
@@ -70,10 +71,6 @@ a {
 
 #menuknap {
     display: inline-block;
-    /*
-    display: flex;
-    justify-content: flex-start;
-*/
     margin-left: 20px;
     font-size: 3rem;
 }
@@ -83,7 +80,8 @@ a {
     background-color: rgba(195, 195, 195, 0.8);
     margin-top: 0;
     margin-bottom: 0;
-
+    height: 190px;
+    position: relative;
 }
 
 #menu li {
@@ -91,7 +89,6 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-
 }
 
 a {
@@ -107,7 +104,7 @@ a:hover {
 
 .logo {
     margin-left: 20px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .logo a {
@@ -144,6 +141,11 @@ footer .section_wrapper .top {
 
 @media only screen and (min-width: 600px) {
 
+    header {
+        height: auto;
+        background-color: #ffffff;
+    }
+
     /*------------brugermanu og nav------------*/
     nav {
         display: block;
@@ -155,7 +157,6 @@ footer .section_wrapper .top {
     }
 
     #menu.hidden {
-        /*        transform: translateX(0);*/
         opacity: 1;
     }
 
@@ -168,6 +169,7 @@ footer .section_wrapper .top {
         text-align: center;
         background-color: rgba(195, 195, 195, 0);
         margin-top: 0;
+        height: 50px;
     }
 
 
