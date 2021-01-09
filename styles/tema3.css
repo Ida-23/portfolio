@@ -19,7 +19,6 @@
 
 
 
-
 /*------------opgaverne og deres tekst------------*/
 
 #tema3_opgaver {
@@ -81,7 +80,7 @@ img {
     #tema3_overskrift .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: 1fr 2fr 1fr;
     }
 
     #tema3_overskrift h1 {
