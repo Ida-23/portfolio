@@ -6,6 +6,12 @@ p {
     margin-top: 0;
 }
 
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
 
 /*-------------baggrunds billede i toppen-------*/
 #endelig_splash {
@@ -25,6 +31,131 @@ p {
 
 
 
+/*-----------------endelig_overskrift--------------*/
+#endelig_overskrift .section_wrapper {
+    text-align: center;
+    margin: 70px 0px;
+}
+
+
+/*-------------endelig_first----------*/
+
+#endelig_first .section_wrapper {
+    margin: 70px 0px;
+}
+
+
+/*-------------endelig_second----------*/
+
+#endelig_second .section_wrapper {
+    margin: 70px 0px;
+}
+
+#endelig_second img {
+    width: 70%;
+}
+
+
+#endelig_second .section_wrapper {
+    display: flex;
+}
+
+
+#endelig_second .section_wrapper {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+}
+
+#endelig_second .section_wrapper .col {
+    flex-grow: 1;
+    flex-basis: 75%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin-left: 10px;
+}
+
+#endelig_second .section_wrapper p {
+    margin-right: 10px;
+}
+
+
+
+/*-------------endelig_third----------*/
+
+#endelig_third .section_wrapper {
+    margin: 70px 0px;
+}
+
+#endelig_third img {
+    width: 70%;
+}
+
+
+#endelig_third .section_wrapper {
+    display: flex;
+}
+
+
+#endelig_third .section_wrapper {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+}
+
+#endelig_third .section_wrapper .col {
+    flex-grow: 1;
+    flex-basis: 75%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin-left: 10px;
+}
+
+#endelig_third .section_wrapper p {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/*---------endelig_fourth-----------*/
+
+#endelig_fourth .section_wrapper {
+    margin: 70px 0px;
+}
+
+
+#endelig_fourth .row_bottom {
+    display: flex;
+}
+
+
+#endelig_fourth .row_bottom {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+#endelig_fourth .row_bottom .image {
+    flex-grow: 1;
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+#endelig_fifth .section_wrapper {
+    margin-bottom: 140px;
+
+}
+
+
 @media only screen and (min-width: 600px) {
 
     #endelig_splash {
@@ -32,17 +163,10 @@ p {
     }
 
     #endelig_splash .section_wrapper {
-        padding-bottom: 150px;
-        padding-top: 300px;
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
-
-
-    /*-----------------endelig_overskrift--------------*/
-    #endelig_overskrift .section_wrapper {
-        text-align: center;
-        margin: 70px 0px;
-    }
 
 
     /*-------------endelig_first----------*/
@@ -51,7 +175,6 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
-        margin: 70px 0px;
     }
 
 
@@ -61,8 +184,21 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 20px;
-        margin: 70px 0px;
     }
+
+
+    #endelig_second .section_wrapper .col {
+        flex-grow: 0;
+        padding-right: 0px;
+        margin-left: 0px;
+
+    }
+
+    #endelig_second img {
+        width: 100%;
+    }
+
+
 
 
     /*-------------endelig_third----------*/
@@ -71,8 +207,19 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 20px;
-        margin: 70px 0px;
     }
+
+
+    #endelig_third .section_wrapper .col {
+        flex-grow: 0;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    #endelig_third img {
+        width: 100%;
+    }
+
 
 
     /*---------endelig_fourth-----------*/
@@ -88,9 +235,10 @@ p {
         grid-column-gap: 10px;
     }
 
-
-
-    #endelig_fifth .section_wrapper {
-        margin: 140px 0px;
+    #endelig_fourth .row_bottom .image {
+        flex-grow: 0;
+        padding-right: 0px;
+        margin-left: 0px;
     }
+
 }
