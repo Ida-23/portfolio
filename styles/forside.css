@@ -35,6 +35,7 @@ body {
 #udpluk .overskrift_udpluk {
     text-align: center;
     padding-top: 5px;
+    margin-top: 70px;
 }
 
 /*
@@ -71,8 +72,6 @@ body {
 
 .image-container {
     display: flex;
-    gap: 5px;
-    /*    padding: 20px;*/
 }
 
 .image-container figure {
@@ -86,16 +85,19 @@ body {
 }
 
 .image-container figure {
-    flex-basis: 90%;
+    flex-basis: 75%;
     flex-shrink: 0;
     scroll-snap-align: center;
     padding-right: 15px;
+    margin-left: 20px;
+    margin-right: 0px;
 }
 
 .image-container figcaption {
     font-size: 1.2rem;
     font-family: 'Tenor Sans', sans-serif;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -130,16 +132,26 @@ body {
     font-size: 0.70rem;
 }
 
+a:hover {
+    color: #eba31b;
+
+}
 
 
 /*-----------om mig, layout over cv siden -------------*/
 #om_mig {
     background-color: #FFFFFF;
     margin-top: 200px;
+    margin-bottom: 140px;
 }
 
 
-
+#om_mig h2 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
@@ -165,7 +177,6 @@ body {
     /*---------udpluk siden --------------*/
     .image-container {
         display: grid;
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
@@ -177,7 +188,15 @@ body {
 
     /*-----------------om mig, layout over cv siden-------------*/
 
+    #om_mig .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
 
-
+    #om_mig h2 {
+        padding-top: 130px;
+        padding-bottom: none;
+    }
 
 }
