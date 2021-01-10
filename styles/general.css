@@ -28,6 +28,12 @@ nav {
 }
 
 
+/*    -------pil frem og tilbage-------*/
+
+#navigation .section_wrapper {
+    display: none;
+}
+
 
 /*-------------Font og deres forhold-------------------*/
 
@@ -145,6 +151,37 @@ footer .section_wrapper .top {
         height: auto;
         background-color: #ffffff;
     }
+
+
+
+
+    /*    -------pil frem og tilbage-------*/
+
+    #navigation {
+        max-width: none;
+        text-align: right;
+    }
+
+    #navigation .section_wrapper {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: #2F3640;
+    }
+
+    #navigation h2 {
+        margin: 0;
+        padding: 5px;
+        color: white;
+        text-align: right;
+    }
+
+    #navigation h2:hover {
+        color: #eba31b;
+    }
+
+
+
 
     /*------------brugermanu og nav------------*/
     nav {
