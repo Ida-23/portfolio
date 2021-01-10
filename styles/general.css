@@ -189,5 +189,6 @@ footer .section_wrapper .top {
     .bottom h4 {
         padding-left: 40px;
         padding-right: 40px;
+        text-transform: uppercase;
     }
 }

@@ -1,17 +1,17 @@
-h1 {
+.section_wrapper {
+    padding: 0px 12px;
+}
+
+h1,
+h2,
+p {
     margin-top: 0;
 }
 
-h3 {
-    text-transform: uppercase;
-    margin-bottom: 0;
-    margin-top: 50px;
-}
 
-#om_mig {
-    max-width: none;
-}
 
+
+/*-------------baggrunds billede i toppen-------*/
 #om_mig_splash {
     max-width: none;
     width: 100%;
@@ -26,27 +26,34 @@ h3 {
     color: #eba31b;
 }
 
-#om_mig_mig {
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+/*----------- billede med mig og selve teksten-----*/
+#om_mig_mig .section_wrapper {
+    margin: 70px 0px;
 }
+
+#om_mig_mig .col_left {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#om_mig_mig .col_left {
+    margin-bottom: 20px;
+    background-image: url(../baggrund.png);
+}
+
+#om_mig_mig .col_left img {
+    border-radius: 100%;
+    width: 50%;
+    margin-top: 7px;
+}
+
+
 
 #om_mig_tekst .section_wrapper {
-    padding: 0px 12px;
-    margin-bottom: 140px;
+    margin: 70px 0px;
 }
 
-
-
-.top li {
-    list-style-type: none;
-    padding-top: 20px;
-}
-
-.bottom li {
-    padding-top: 20px;
-    margin-left: 20px;
-}
 
 
 
@@ -58,31 +65,31 @@ h3 {
     }
 
     #om_mig_splash .section_wrapper {
-        padding-bottom: 150px;
-        padding-top: 300px;
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
     /*----------- billede med mig og selve teksten-----*/
 
     #om_mig_mig .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-gap: 40px;
-    }
-
-
-    /*-----------tekst delens grid---------*/
-    #om_mig_tekst .section_wrapper {
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 40px;
     }
 
 
+    #om_mig_mig .col_left img {
+        margin-top: 50px;
+    }
 
+    /*----------- om_mig_tekst-----*/
 
+    #om_mig_tekst .section_wrapper {
+        text-align: center;
+    }
 
-
-
+    #om_mig_tekst img {
+        width: 60%;
+    }
 
 }
