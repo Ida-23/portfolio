@@ -1,11 +1,48 @@
+.section_wrapper {
+    padding: 0px 12px;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+
+
+
+/*-------------baggrunds billede i toppen-------*/
+#kontakt_splach {
+    max-width: none;
+    width: 100%;
+    height: auto;
+    background: url(../baggrund.png) no-repeat fixed top;
+}
+
+#kontakt_splach .section_wrapper {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    color: #eba31b;
+}
+
+
+#kontakt {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#kontakt .section_wrapper {
+    margin: 70px 0px;
+}
+
+
 .form-felt {
     margin-bottom: 1rem;
-    /*    font-weight: 800;*/
 }
 
 label {
-    /*    display: grid;*/
-    /*    justify-items: start;*/
     font-family: 'Assistant', sans-serif;
 
 }
@@ -30,40 +67,48 @@ button {
     background-color: #2F3640;
     color: #FFFFFF;
     box-shadow: 5px 5px 5px gray;
-    /*    font-weight: 600;*/
-    font-size: 1rem;
+    font-size: 0.70rem;
     font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
 }
 
 button:hover {
     color: #eba31b;
-
 }
 
 
 
-#kontakt {
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-#splach {
-    max-width: none;
-    width: 100%;
-    height: 80vh;
-    background-image: url(../splch_eksamen.png);
-    background-size: cover;
-    background-position: 100%;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-areas: 1fr 1fr;
-}
 
 
 @media only screen and (min-width: 600px) {
-    #kontakt {
-
-        justify-content: flex-start;
+    #kontakt_splach {
+        height: auto;
     }
+
+    #kontakt_splach .section_wrapper {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+
+    #kontakt {
+        justify-content: center;
+    }
+
+
+    input,
+    textarea {
+        padding: 0.5rem;
+        padding-right: 40rem;
+
+
+    }
+
+
+
+
+
+
+
+
 }
