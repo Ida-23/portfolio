@@ -125,7 +125,7 @@ footer {
 footer .section_wrapper {
     display: grid;
     grid-template-rows: 1fr 2fr;
-    color: aliceblue;
+    color: white;
     padding: 0px 12px;
     text-align: center;
 

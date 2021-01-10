@@ -125,6 +125,16 @@ a:hover {
     text-transform: uppercase;
 }
 
+#om_mig .col_left img {
+    border-radius: 100%;
+    width: 50%;
+    margin-top: 7px;
+}
+
+#om_mig .col_left {
+    text-align: center;
+    background-color: #151b22;
+}
 
 
 @media only screen and (min-width: 600px) {
@@ -175,7 +185,7 @@ a:hover {
     }
 
     #om_mig h2 {
-        padding-top: 130px;
+        padding-top: 120px;
         padding-bottom: none;
     }
 
