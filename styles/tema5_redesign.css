@@ -8,33 +8,21 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     text-transform: uppercase;
 }
 
 
-
-video {
-    margin: 0;
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
-
-h3 {
+h3,
+p {
     margin: 0;
 }
 
 #redesign_second h4 {
-    text-transform: uppercase;
     margin: 0;
 }
 
-.redesign_fe {
-    background: #2F3640;
-    padding: 5px;
-}
 
 
 /*-------------baggrunds billede i toppen-------*/
@@ -59,55 +47,77 @@ h3 {
 
 
 
+/*-----------------redesign_overskift--------------*/
+#redesign_overskrift .section_wrapper {
+    text-align: center;
+    margin: 70px 0px;
+}
+
+/*----------redesign_first---------*/
+#redesign_first .section_wrapper {
+    margin: 70px 0px;
+}
+
+#redesign_first .section_wrapper .col_left h4 {
+    margin-top: 0;
+    margin-bottom: 40;
+}
+
+/*----------redesign_second---------*/
+#redesign_second .section_wrapper {
+    margin: 70px 0px;
+}
+
+#redesign_second .row_top {
+    margin-bottom: 20px;
+}
+
+#redesign_second .col_left {
+    margin-bottom: 20px;
+}
+
+#redesign_second .col_mellem {
+    margin-bottom: 20px;
+}
+
+#redesign_second .row_mellem {
+    margin-bottom: 40px;
+}
+
+
 
 
 @media only screen and (min-width: 600px) {
-
-    nav {
-        background-color: #ffff;
-    }
 
     #redesign_splash {
         height: auto;
     }
 
     #redesign_splash .section_wrapper {
-        padding-bottom: 150px;
-        padding-top: 300px;
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
-    video {
-        margin: 0;
-        height: auto;
-        width: 100%;
-        border-radius: 4px;
-    }
-
-    /*-----------------redesign_overskift--------------*/
-    #redesign_overskrift .section_wrapper {
-        text-align: center;
-        margin: 70px 0px;
-    }
 
     /*----------redesign_first---------*/
     #redesign_first .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
-        margin: 70px 0px;
     }
 
 
     /*----------redesign_second---------*/
     #redesign_second .section_wrapper {
         display: grid;
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: .5fr 2fr 2fr;
     }
 
     #redesign_second .row_mellem {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
+        margin-bottom: 40px;
     }
 
     #redesign_second .row_bottom {
