@@ -74,6 +74,12 @@ img {
 
 @media only screen and (min-width: 600px) {
 
+    /*    -------pil frem og tilbage-------*/
+    #navigation .section_wrapper {
+        padding: 0px 12px;
+    }
+
+
     #tema_splash {
         height: auto;
     }
