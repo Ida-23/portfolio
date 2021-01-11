@@ -2,6 +2,20 @@
     padding: 0px 12px;
 }
 
+#redesign_first h3 {
+    padding: 0px 12px;
+}
+
+#redesign_define h3 {
+    padding: 0px 12px;
+}
+
+
+#redesign_develop h3 {
+    padding: 0px 12px;
+}
+
+
 p {
     margin-top: 0;
 }
@@ -15,6 +29,7 @@ h4 {
 
 
 h3,
+h1,
 p {
     margin: 0;
 }
@@ -24,6 +39,9 @@ p {
 }
 
 
+h1 {
+    font-size: 1.5rem;
+}
 
 /*-------------baggrunds billede i toppen-------*/
 #redesign_splash {
@@ -87,7 +105,110 @@ p {
 
 
 
+/*----------redesign_sitemap---------*/
+#redesign_sitemap .section_wrapper {
+    margin: 70px 0px;
+}
+
+#redesign_sitemap .row_bottom {
+    margin-top: 20px;
+    display: flex;
+}
+
+#redesign_sitemap .row_bottom {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+#redesign_sitemap .row_bottom .image {
+    flex-grow: 1;
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#redesign_sitemap .row_bottom img {
+    border: 1px solid;
+    width: 90%;
+}
+
+
+
+
+/*----------redesign_define---------*/
+#redesign_define .section_wrapper {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#redesign_define .col_left {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*----------redesign_develop---------*/
+#redesign_develop .section_wrapper {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+
+#redesign_develop .col_right {
+    margin-top: 20px;
+    display: flex;
+}
+
+#redesign_develop .col_right {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+#redesign_develop .col_right .image {
+    flex-grow: 1;
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/*----------redesign_deliver---------*/
+#redesign_deliver .section_wrapper {
+    margin: 70px 0px;
+}
+
+#redesign_deliver .section_wrapper p {
+    margin-top: 20px;
+}
+
+
+
+/*----------redesign_third---------*/
+#redesign_third .section_wrapper h4 {
+    font-weight: normal;
+}
+
+#redesign_third a {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
 
     #redesign_splash {
         height: auto;
@@ -105,6 +226,88 @@ p {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
     }
+
+
+    /*----------redesign_sitemap---------*/
+    #redesign_sitemap .section_wrapper {
+        display: grid;
+        grid-template-rows: .1fr 1fr;
+        grid-row-gap: 20px;
+    }
+
+    #redesign_sitemap .row_top {
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+
+    #redesign_sitemap .row_bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        text-align: center;
+
+    }
+
+
+    #redesign_sitemap .row_bottom .image {
+        flex-grow: 0;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+
+    /*----------redesign_define---------*/
+
+    #redesign_define {
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+
+    #redesign_define .section_wrapper {
+        display: grid;
+        grid-template-columns: .7fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+
+    #redesign_define .col_right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+
+
+
+    /*----------redesign_develop---------*/
+    #redesign_develop .section_wrapper {
+        display: grid;
+        grid-template-columns: .7fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+
+    #redesign_develop .col_right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    #redesign_develop .col_right .image {
+        flex-grow: 0;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    /*----------redesign_deliver---------*/
+    #redesign_deliver .section_wrapper {
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+
 
 
     /*----------redesign_second---------*/
