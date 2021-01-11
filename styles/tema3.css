@@ -64,7 +64,7 @@ img {
 
 
     img {
-        width: 99%;
+        width: 100%;
     }
 
     /*-------------baggrunds billede i toppen-------*/
@@ -149,7 +149,7 @@ img {
 
 
     .top img:hover {
-        width: 100%;
+        width: 95%;
     }
 
 
