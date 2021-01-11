@@ -10,8 +10,9 @@ h4 {
 }
 
 
-h4 {
+#pitch_second h4 {
     width: 900;
+    text-decoration: underline;
 }
 
 /*-------------baggrunds billede i toppen-------*/
@@ -78,7 +79,7 @@ h4 {
     #pitch_first .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 20px;
+        grid-column-gap: 40px;
 
     }
 
@@ -97,7 +98,7 @@ h4 {
 
     #pitch_second h4 {
         padding: 130px 0px;
-        margin: 10px 150px;
+        margin: 25px 150px;
 
         background-color: #ffff;
         border-radius: 100%;

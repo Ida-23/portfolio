@@ -98,6 +98,9 @@ img {
         grid-template-columns: 1fr 1fr;
     }
 
+    .top img:hover {
+        width: 71%;
+    }
 
 
     /*---------- teksten på tema4 siden ------------*/
