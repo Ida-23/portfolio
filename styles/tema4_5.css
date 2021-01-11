@@ -47,9 +47,22 @@ img {
     margin-bottom: 10px;
 }
 
-#tema5_overskrift H3 {
+#tema5_overskrift h3 {
     text-align: left;
+    text-transform: uppercase;
 }
+
+
+#tema5_overskrift .section_wrapper h4 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#tema5_overskrift a {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
 
 /*------------opgaverne og deres tekst------------*/
 #tema_opgaver {
