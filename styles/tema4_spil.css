@@ -9,6 +9,7 @@ h4 {
     text-transform: uppercase;
 }
 
+
 /*-------------baggrunds billede i toppen-------*/
 #spil_splash {
     max-width: none;
@@ -43,11 +44,29 @@ h4 {
 }
 
 
+
+/*-----------------spil_third--------------*/
+
+#spil_third .section_wrapper h4 {
+    font-weight: normal;
+    margin-top: 70px;
+
+}
+
+#spil_third a {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+
+
 /*-----------------spil_fourth--------------*/
 #spil_fourth .section_wrapper {
     margin-top: 70px;
     margin-bottom: 140px;
+    text-align: center;
 }
+
 
 
 
@@ -71,13 +90,22 @@ h4 {
         grid-gap: 20px;
     }
 
+    /*-----------------spil_second-------------*/
+    #spil_second .section_wrapper {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 
-
+    /*-----------------spil_third-------------*/
+    #spil_third .section_wrapper {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 
     /*-----------------spil_fourth--------------*/
 
     #spil_fourth .section_wrapper img {
-        width: 50%;
+        width: 70%;
     }
 
 
