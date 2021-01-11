@@ -135,6 +135,7 @@ footer .section_wrapper {
     color: white;
     padding: 0px 12px;
     text-align: center;
+    text-transform: uppercase;
 
 }
 
@@ -227,6 +228,5 @@ footer .section_wrapper .top {
     .bottom h4 {
         padding-left: 40px;
         padding-right: 40px;
-        text-transform: uppercase;
     }
 }

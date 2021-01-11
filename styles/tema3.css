@@ -63,9 +63,8 @@ img {
     }
 
 
-
     img {
-        width: 100%;
+        width: 99%;
     }
 
     /*-------------baggrunds billede i toppen-------*/
@@ -87,7 +86,7 @@ img {
     #tema3_overskrift .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-rows: .5fr 1fr 1fr;
     }
 
     #tema3_overskrift h1 {
@@ -109,6 +108,7 @@ img {
         grid-column-end: span 1;
         grid-row-start: 3;
         grid-row-end: span 1;
+        margin-top: 50px;
     }
 
     #tema3_overskrift #fed1 {
@@ -116,12 +116,12 @@ img {
         grid-column-end: span 1;
         grid-row-start: 3;
         grid-row-end: span 1;
+        margin-top: 50px;
     }
 
 
     #tema3_overskrift #fed,
     #fed1 {
-        font-weight: bold;
         text-align: center;
     }
 
@@ -148,7 +148,9 @@ img {
     }
 
 
-
+    .top img:hover {
+        width: 100%;
+    }
 
 
 
