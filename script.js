@@ -3,7 +3,8 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-    document.querySelector("#forside_pil").classList.add("hoppe");
+
+    document.querySelector("#pil_op").classList.add("hoppe");
 }
 
 function toggleMenu() {

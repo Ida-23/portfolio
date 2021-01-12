@@ -171,21 +171,6 @@ body {
         font-size: 3rem;
     }
 
-    .hoppe {
-        animation-name: hoppe_kf;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: both;
-        animation-direction: alternate;
-    }
-
-    @keyframes hoppe_kf {
-
-        100% {
-            transform: translateY(1vw);
-        }
-    }
-
 
     /*---------udpluk siden --------------*/
     .image-container {
@@ -218,7 +203,6 @@ body {
 
     #om_mig h2 {
         padding-top: 120px;
-        padding-bottom: none;
     }
 
 }
