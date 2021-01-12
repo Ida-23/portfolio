@@ -133,7 +133,7 @@ a {
 
 #menu {
     list-style-type: none;
-    background-color: rgba(195, 195, 195, 0.8);
+    background-color: #2F3640;
     margin-top: 0;
     margin-bottom: 0;
     height: 190px;
@@ -148,7 +148,7 @@ a {
 }
 
 a {
-    color: rgb(3, 3, 3);
+    color: white;
     text-decoration: none;
 }
 
@@ -241,6 +241,11 @@ footer .section_wrapper .top {
         background-color: rgba(195, 195, 195, 0);
         margin-top: 0;
         height: 50px;
+    }
+
+    a {
+        color: rgb(3, 3, 3);
+
     }
 
 
