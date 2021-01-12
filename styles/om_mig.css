@@ -16,7 +16,7 @@ p {
     max-width: none;
     width: 100%;
     height: auto;
-    background: url(../baggrund.png) no-repeat fixed top;
+    background: url(../baggrund.webp) no-repeat fixed top;
 }
 
 #om_mig_splash .section_wrapper {
@@ -39,7 +39,7 @@ p {
 
 #om_mig_mig .col_left {
     margin-bottom: 20px;
-    background-image: url(../baggrund.png);
+    background-image: url(../baggrund.webp);
 }
 
 #om_mig_mig .col_left img {
