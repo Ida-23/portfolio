@@ -30,9 +30,29 @@ nav {
 
 /*    -------pil frem og tilbage-------*/
 
-#navigation .section_wrapper {
-    display: none;
+#navigation {
+    max-width: none;
 }
+
+#navigation .section_wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #2F3640;
+}
+
+#navigation h2 {
+    margin: 0;
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+#navigation h2:hover {
+    color: #eba31b;
+}
+
+
+
 
 
 #pil_op {
@@ -188,28 +208,12 @@ footer .section_wrapper .top {
 
     /*    -------pil frem og tilbage-------*/
 
-    #navigation {
-        max-width: none;
-        text-align: right;
-    }
 
     #navigation .section_wrapper {
-        display: flex;
-        flex-direction: column;
         position: fixed;
-        background-color: #2F3640;
     }
 
-    #navigation h2 {
-        margin: 0;
-        padding: 5px;
-        color: white;
-        text-align: right;
-    }
 
-    #navigation h2:hover {
-        color: #eba31b;
-    }
 
 
 
