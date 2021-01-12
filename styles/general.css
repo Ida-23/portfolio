@@ -148,12 +148,20 @@ a {
 }
 
 a {
-    color: white;
+    color: rgb(3, 3, 3);
     text-decoration: none;
 }
 
-
 a:hover {
+    color: #eba31b;
+}
+
+
+#menu li a {
+    color: white;
+}
+
+#menu li a:hover {
     color: #eba31b;
 }
 
@@ -232,6 +240,10 @@ footer .section_wrapper .top {
     #menu li {
         display: inline-block;
 
+    }
+
+    #menu li a {
+        color: rgb(3, 3, 3);
     }
 
     #menu {
